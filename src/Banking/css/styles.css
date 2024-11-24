@@ -1,0 +1,49 @@
+.root {
+    -fx-font-family: "Arial";
+    -fx-background-color: #d6eaf8  ;
+    -fx-alignment: center;
+
+}
+
+.text-field {
+    -fx-border-color: #154360;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-padding: 5;
+}
+
+.button {
+    -fx-background-color:#154360  ;
+    -fx-text-fill: white;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-padding: 8 15;
+}
+
+.button:hover {
+    -fx-background-color: #2e86c1 ;
+}
+
+.text-area {
+    -fx-border-color: #f5b7b1 ;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-padding: 10;
+    -fx-background-color:#154360 ;
+}
+
+.label {
+    -fx-font-size: 14;
+    -fx-font-weight: bold;
+}
+
+.vbox {
+    -fx-spacing: 15;
+    -fx-padding: 15;
+}
+
+.grid-pane {
+    -fx-hgap: 10;
+    -fx-vgap: 10;
+    -fx-padding: 15;
+}
